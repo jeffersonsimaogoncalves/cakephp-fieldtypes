@@ -1,2 +1,6 @@
-/node_modules/
-/bower_components/
+/node_modules/*
+/vendor/*
+/bower_components/*
+/.idea/*
+/package-lock.json
+/composer.lock

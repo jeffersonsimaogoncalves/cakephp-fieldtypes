@@ -1,8 +1,8 @@
 {
-	"name": "jeffersonsimaogoncalves/cakephp-fieldtypes",
-	"description": "FieldTypes plugin for CakePHP. CakeAdmin compatible.",
-	"license": "MIT",
-	"authors": [
+  "name": "jeffersonsimaogoncalves/cakephp-fieldtypes",
+  "description": "FieldTypes plugin for CakePHP.",
+  "license": "MIT",
+  "authors": [
     {
       "name": "Leonardo Ruhland",
       "homepage": "https://github.com/leoruhland",
@@ -13,23 +13,23 @@
       "homepage": "https://github.com/jeffersonsimaogoncalves"
     }
   ],
-	"type": "cakephp-plugin",
-	"require": {
-		"php": ">=5.4.16",
-		"cakephp/cakephp": "~3.0"
-	},
-	"require-dev": {
-		"phpunit/phpunit": "*"
-	},
-	"autoload": {
-		"psr-4": {
-			"FieldTypes\\": "src"
-		}
-	},
-	"autoload-dev": {
-		"psr-4": {
-			"FieldTypes\\Test\\": "tests",
-			"Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
-		}
-	}
+  "type": "cakephp-plugin",
+  "require": {
+    "php": ">=5.4.16",
+    "cakephp/cakephp": "~3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "FieldTypes\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "FieldTypes\\Test\\": "tests",
+      "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+    }
+  }
 }
