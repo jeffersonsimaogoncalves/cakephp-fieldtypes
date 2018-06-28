@@ -15,21 +15,19 @@
   ],
   "type": "cakephp-plugin",
   "require": {
-    "php": ">=5.4.16",
-    "cakephp/cakephp": "~3.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "*"
+    "php": ">=7",
+    "cakephp/cakephp": "^3.6"
   },
   "autoload": {
     "psr-4": {
       "FieldTypes\\": "src"
     }
   },
-  "autoload-dev": {
-    "psr-4": {
-      "FieldTypes\\Test\\": "tests",
-      "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
-    }
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true,
+    "htaccess-protect": true,
+    "optimize-autoloader": true
   }
 }
