@@ -1,7 +1,18 @@
 {
-	"name": "leoruhland/cakephp-fieldtypes",
+	"name": "jeffersonsimaogoncalves/cakephp-fieldtypes",
 	"description": "FieldTypes plugin for CakePHP. CakeAdmin compatible.",
 	"license": "MIT",
+	"authors": [
+    {
+      "name": "Leonardo Ruhland",
+      "homepage": "https://github.com/leoruhland",
+      "role": "Author"
+    },
+    {
+      "name": "Jefferson Simão Gonçalves",
+      "homepage": "https://github.com/jeffersonsimaogoncalves"
+    }
+  ],
 	"type": "cakephp-plugin",
 	"require": {
 		"php": ">=5.4.16",
