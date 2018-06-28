@@ -10,7 +10,7 @@ You can install this plugin into your CakePHP application using [composer](http:
 The recommended way to install composer packages is:
 
 ```
-composer require leoruhland/cakephp-fieldtypes
+composer require jeffersonsimaogoncalves/cakephp-fieldtypes
 ```
 
 Now load the plugin with the command:
@@ -139,6 +139,6 @@ public function postType() {
 ![toggle](http://leoruhland.github.io/cakephp-fieldtypes/images/ex-toggle.png)
 
 
-## CakeAdmin
+## Credits
 
-The plugin is [CakeAdmin](https://github.com/cakemanager/cakephp-cakeadmin) compatible!
+This work is based on the [code by Leonardo Ruhland](https://github.com/leoruhland/cakephp-fieldtypes).
